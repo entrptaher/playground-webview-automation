@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "WebView Automation",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "2.0",
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["config.js", "main.js"]
+    }
+  },
+  "permissions": [
+    "webview",
+    "storage"
+  ]
+}
